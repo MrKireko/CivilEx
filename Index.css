@@ -25,10 +25,9 @@ body {
 }
 
 #pt1 {
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
     background-image: url("tempbg1.png");
-    background-size: 100%;
+/*    background-size: 100%;*/
     background-repeat: no-repeat;
 }
 
@@ -42,6 +41,10 @@ body {
     animation-delay: 0.2s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+    -webkit-animation-name: headerin;
+    -webkit-animation-delay: 0.2s;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
 }
 
 #header, #header2 {
@@ -70,6 +73,10 @@ body {
     animation-delay: 1.5s;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    -webkit-animation-name: scrolldown;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
 }
 
 #sdtext {
@@ -82,6 +89,16 @@ body {
 }
 
 @keyframes scrolldown {
+    from {margin-bottom: -55px;}
+    to   {margin-bottom: 0px;}
+}
+
+@-webkit-keyframes headerin {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes scrolldown {
     from {margin-bottom: -55px;}
     to   {margin-bottom: 0px;}
 }
