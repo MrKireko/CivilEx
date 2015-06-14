@@ -14,26 +14,99 @@
     padding: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    font-family: RobotoLight;
+    width: 100%;
+    height: 100%;
+}
+
+#pt1 {
+    height: 100%;
+    width: 100%;
     background-image: url("tempbg1.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    font-family: RobotoLight;
-    width: 100%;
 }
 
-pt1 {
-}
-
-#header {
-    background-color: rgba(0, 0, 0, 0.5);
+#header, #header2, #header3, #header4, #header5 {
     color: rgb(220, 220, 220);
-    height: 200px;
+    min-height: 200px;
+    height: auto;
     text-align: center;
+    opacity: 0;
+    animation-name: headerin;
+    animation-delay: 0.2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#header, #header2 {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #title {
     font-size: 90px;
     margin-top: 60px;
     display: inline-block;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#scrolldown {
+    bottom: 0;
+    position: fixed;
+    font-family: Roboto;
+    color: rgb(220, 220, 220);
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: -55px;
+    opacity: 1;
+    animation-name: scrolldown;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#sdtext {
+    text-shadow: 0px 3px 5px black;
+}
+
+@keyframes headerin {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes scrolldown {
+    from {margin-bottom: -55px;}
+    to   {margin-bottom: 0px;}
+}
+
+#pt2 {
+    height: 100%;
+    background-image: url("tempbg2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#header3 {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#header4 {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#header5 {
+    background-color: rgba(0, 0, 0, 0.2);
+    min-height: 220px;
+}
+
+#header5 #title {
+    margin-top: 45px;
+    font-size: 130px;
 }
