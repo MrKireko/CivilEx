@@ -87,9 +87,9 @@ body {
 }
 
 #pt2 {
-    height: 100%;
+    min-height: 100%;
     background-image: url("tempbg2.png");
-    background-size: 100%;
+/*    background-size: 100%;*/
     background-repeat: no-repeat;
 }
 
