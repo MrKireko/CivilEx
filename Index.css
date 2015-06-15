@@ -26,7 +26,7 @@ body {
 
 #pt1 {
     min-height: 100%;
-    background-image: url("tempbg1.png");
+    background-image: url("bg1.png");
 /*    background-size: 100%;*/
     background-repeat: no-repeat;
 }
@@ -105,7 +105,7 @@ body {
 
 #pt2 {
     min-height: 100%;
-    background-image: url("tempbg2.png");
+    background-image: url("bg5.png");
 /*    background-size: 100%;*/
     background-repeat: no-repeat;
 }
