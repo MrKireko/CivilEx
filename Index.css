@@ -149,10 +149,8 @@ a {
     padding-left: 50px;
     padding-right: 50px;
     text-align: justify;
-/*
     opacity: 0;
     animation-name: headerin;
-*/
     animation-delay: 0.9s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
