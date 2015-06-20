@@ -32,7 +32,7 @@ a {
 #pt1 {
     min-height: 100%;
     background-color: #45a4ed;
-    background-image: url("bg1.png");
+    background-image: url("bg1.jpg");
 /*    background-size: 100%;*/
     background-repeat: no-repeat;
 }
@@ -113,7 +113,7 @@ a {
 #pt2 {
     min-height: 100%;
     background-color: #919195;
-    background-image: url("bg5.png");
+    background-image: url("bg5.jpg");
 /*    background-size: 100%;*/
     background-repeat: no-repeat;
 }
@@ -140,7 +140,7 @@ a {
 #pt3 {
     min-height: 100%;
     background-color: #62925e;
-    background-image: url("bg4.png");
+    background-image: url("bg4.jpg");
     background-repeat: no-repeat;
 }
 
